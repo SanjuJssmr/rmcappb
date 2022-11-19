@@ -55,7 +55,7 @@ const UserList = ({ setSelectedUsers }) => {
             
             try {
                 const response = await client.queryUsers(
-                    { id: { $ne: client.userID } },
+                    { id: { $in: client.userID } },
                     { id: 1 },
                     { limit: 8 } 
                 );
