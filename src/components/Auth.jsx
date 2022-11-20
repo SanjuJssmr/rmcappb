@@ -28,7 +28,7 @@ const Auth = () => {
 
     const { username, password, phoneNumber, avatarURL } = form;
 
-    const URL = "https://rcmapp.netlify.app/auth";
+    const URL = "https://rmcbackend.onrender.com/auth";
   
 
     const {
